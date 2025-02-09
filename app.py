@@ -8,7 +8,7 @@ import json
 load_dotenv()  # load all our environment variables
 
 # Configure the API key
-genai.configure(api_key="AIzaSyDC7F-hQU1SKv_0h7JxRfOdFN0_qCvMxNk")
+genai.configure(api_key="")
 
 # Function to get the Gemini response
 def get_gemini_response(input_text):
